@@ -1,0 +1,275 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:"poppins",sans-serif;
+    
+}
+
+/*Navbar*/
+
+
+
+
+.nav-link{
+    color:white !important;
+    border-bottom: 1px solid transparent;
+
+}
+.nav-link:hover{
+    border-bottom: 1px solid white;
+}
+
+/*Home Page*/
+
+
+section{
+    width: 100%;
+    min-height: 100vh;
+    
+}
+#home{
+    background-color:yellowgreen;
+    
+}
+#home p{
+    position: absolute;
+    top: 50%;
+    font-size: 75px;
+    font-style: italic;
+    color: white;
+    margin-left: 12%;
+    
+
+
+}
+
+
+body{
+    min-height: 100vh;
+    width:100vw;
+    background-color: yellowgreen;
+    overflow-x: hidden;
+}
+ h3{
+    position: absolute;
+    top: 65%;
+    color: white;
+    margin-left: 15%;
+    font-size: 35px;
+ }
+
+ .lap{
+    float: right;
+    width: 45%;
+    margin-right: 8%;
+    
+    
+ }
+
+ 
+    /*About Page*/
+
+
+    #about{
+        padding-top: 15% !important;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        background-color: antiquewhite;
+
+    }
+    .circle{
+        width: 400px;
+        height: 400px;
+        background-color:#ff75a0 ;
+        border-radius: 50%;
+        transition:1s;
+        position: relative;
+        box-shadow: 0px 5px 12px rbga(0,0,0,.7);
+        margin-bottom: 3%;
+        margin-top: 8%;
+    }
+    .circle img{
+        position:absolute;
+        height: 350px;;
+        top:-20%;
+        left:6%;
+        border-radius: 10px;
+        transition:1s;
+    }
+
+     .circle:hover{
+        width: 700px;
+        height: 400px;
+        border-radius:10px;
+        transition:1s;
+    }
+.circle:hover img{
+    position: absolute;
+    top: 0%;
+    left:0%;
+    transition: 1s;
+}
+
+
+.circle:hover .content{
+    position: absolute;
+    top:15%;
+    right:0;
+    color:white;
+    width:50%;
+    opacity:1;
+
+}
+.circle .content{
+    opacity: 0;
+}
+
+.circle p{
+    font-size: 18px;
+}
+
+
+
+   /*Our Services Page*/
+   
+
+.web{
+    font-size: 25px;
+}
+#ourservices h1{
+      color:blue;
+}
+#ourservices{
+    
+    padding-top: 25% !important;
+    
+}
+    
+    
+
+
+
+
+  /*Skill Page*/
+
+
+#skills{
+ padding-top: 5%;
+ background: rgb(194, 194, 187);
+}
+
+#skills .container{
+    margin-top:6%;
+    margin-bottom: 6%;
+}
+  
+#skills label{
+    font-size: 20px;
+    color: red;
+}    
+  
+.progress{
+    height:30px !important;
+}
+
+#skills h1{
+    color:blue;
+}
+
+
+/*Plans Page*/
+
+#plans{
+    padding-top: 10% !important;
+
+}
+.card{
+    margin-top: 15%;
+}
+#plans h1{
+    color: blue;
+}
+.card:hover{
+    box-shadow: 8px 8px 15px rgba(0,0,0,.4);
+transition: .2s;
+}
+
+
+
+/*Contact Page*/
+
+
+#contact{
+    padding-top: 7%;
+    background-color:skyblue;
+}
+
+#preloader{
+    background:white url(photos/preloader3.jpg) no-repeat center center;
+    background-size:50%;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+#contact h2{
+    color:blue;
+}
+
+#contact p{
+    color:white;
+    font-size:25px;
+}
+
+/*Footer Page*/
+
+.inner-footer{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.social-links{
+    display: flex;
+
+}
+
+.social-links ul{
+    
+    display: flex;
+    width: 300px;
+    height: 30px;
+    
+
+}
+
+.social-items{
+    list-style: none;
+}
+
+.social-items a{
+    padding: 10px 20px;
+    font-size: 35px;
+    color: white;
+    
+}
+
+.outer-footer{
+    padding:10px;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    background-color:#3f3f3f;
+}
+
+
+
+
+
+    
