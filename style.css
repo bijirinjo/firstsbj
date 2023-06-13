@@ -306,7 +306,7 @@ transition: .2s;
 
        @media  screen and (max-width:750px) {
         iframe{
-            width:300px;
+            width:100px;
         }
         
        }
