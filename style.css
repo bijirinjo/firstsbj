@@ -157,7 +157,7 @@ body{
 
 #skills{
  padding-top: 5%;
- background: rgb(194, 194, 187);
+ 
 }
 
 #skills .container{
@@ -304,9 +304,9 @@ transition: .2s;
 
 
 
-       @media  screen and (max-width:720) {
+       @media  screen and (max-width:750) {
         iframe{
-            width:10px;
+            width:200px;
         }
         
        }
