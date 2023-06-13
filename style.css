@@ -310,3 +310,17 @@ transition: .2s;
         }
         
        }
+
+       @media  screen and (max-width:1200px) {
+        iframe{
+            width:500px;
+        }
+        
+       }
+
+       @media  screen and (max-width:550px) {
+        iframe{
+            width:300px;
+        }
+        
+       }
