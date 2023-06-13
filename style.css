@@ -6,7 +6,7 @@
     
 }
 
-/*Navbar*/
+/*Navbar
 
 
 
@@ -18,7 +18,7 @@
 }
 .nav-link:hover{
     border-bottom: 1px solid white;
-}
+}*/
 
 /*Home Page*/
 
@@ -76,7 +76,7 @@ body{
         display:flex;
         justify-content: center;
         align-items: center;
-        background-color: antiquewhite;
+        background-image: linear-gradient(orange,yellow);
 
     }
     .circle{
@@ -223,6 +223,18 @@ transition: .2s;
     font-size:25px;
 }
 
+.location{
+  
+  justify-content: center;
+}
+
+
+
+
+
+
+
+
 /*Footer Page*/
 
 .inner-footer{
@@ -232,6 +244,7 @@ transition: .2s;
     display: flex;
     flex-direction: column;
     align-items: center;
+    color: white;
     
 }
 
@@ -270,6 +283,27 @@ transition: .2s;
 
 
 
+/* media */
 
 
-    
+       @media screen and (max-width:1290px){
+        #home p{
+            font-size:55px;
+        }
+        .lap{
+            width:35%
+        }
+       }
+
+       @media screen and (max-width:580px),(min-width:400px){
+        #home p{
+            font-size:40px;
+        }
+        
+       }
+
+
+
+       @media  screen and (max-width:) {
+        
+       }
